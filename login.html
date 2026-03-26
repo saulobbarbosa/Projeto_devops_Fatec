@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevStart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#121212] text-white min-h-screen flex flex-col">
+    <header class="flex justify-between items-center px-[18rem] py-3 border-1 
+        border-1 border-neutral-900 border-b-neutral-800">
+        <a href="./index.html" class="text-xl font-bold">
+            Dev<span class="text-red-600">Start</span>
+        </a>
+        <div class="flex items-center gap-8">
+            <a href="./index.html" class="text-neutral-400 text-sm p-2 hover:text-red-600">Home</a>
+            <a href="./login.html" class="text-red-600 text-sm p-2">Login</a>
+            <a href="./contato.html" class="text-neutral-400 text-sm p-2 hover:text-red-600">Contato</a>
+        </div>
+    </header>
+    <main class="flex items-center justify-center flex-1">
+        <div class="w-full max-w-sm">
+            <div class="rounded-lg border border-neutral-800 bg-neutral-900 p-8">
+                <h1 class="text-2xl font-bold text-center mb-8">
+                    Entrar na <span class="text-red-600">DevStart</span>
+                </h1>
+                <form class="space-y-5">
+                    <div class="space-y-2">
+                        <label for="email" class="text-sm font-medium">
+                            Email
+                        </label>
+                        <input id="email" type="email" placeholder="seu@email.com"
+                            class="w-full h-10 rounded-md border border-neutral-800 bg-[#121212] px-3 text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-red-600">
+                    </div>
+                    <div class="space-y-2">
+                        <label for="password" class="text-sm font-medium">
+                            Senha
+                        </label>
+                        <input id="password" type="password" placeholder="••••••••"
+                            class="w-full h-10 rounded-md border border-neutral-800 bg-[#121212] px-3 text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-red-600">
+                    </div>
+                    <button class="cursor-pointer w-full h-11 rounded-md bg-red-600 font-semibold text-sm transition hover:bg-red-700">
+                        Entrar
+                    </button>
+                </form>
+                <p class="mt-6 text-center text-sm text-neutral-400">
+                    Não tem conta?
+                    <span class="text-red-600 font-medium hover:underline">
+                        Cadastre-se
+                    </span>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="flex items-center justify-center p-7 border-1 border-neutral-900 border-t-neutral-800">
+        <p class="text-neutral-400 text-sm">© 2026 DevStart. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
