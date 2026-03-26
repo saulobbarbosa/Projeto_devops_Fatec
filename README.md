@@ -48,7 +48,6 @@ O protótipo possui 3 telas:
 
 ## 🛠️ Tecnologias utilizadas
 
-* Protótipo criado com **Lovable**
 * Versionamento com **Git** e **GitHub**
 
 ## 📚 Objetivo acadêmico
