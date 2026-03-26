@@ -15,21 +15,21 @@ O objetivo é apenas demonstrar a estrutura básica de um site, contendo três p
 
 O protótipo possui 3 telas:
 
-### 1. Home (Inicial)
+### 1\. Home (Inicial)
 
 * Apresentação da plataforma
 * Título principal
 * Botão de destaque
 * Layout simples e organizado
 
-### 2. Login
+### 2\. Login
 
 * Formulário de login
 * Campos de email e senha
 * Botão de entrar
 * Layout centralizado
 
-### 3. Contato
+### 3\. Contato
 
 * Formulário de contato
 * Campos de nome, email e mensagem
@@ -48,7 +48,7 @@ O protótipo possui 3 telas:
 
 ## 🛠️ Tecnologias utilizadas
 
-* Protótipo criado com **Lovable**
+* Protótipo criado com **Lovable.**
 * Versionamento com **Git** e **GitHub**
 
 ## 📚 Objetivo acadêmico
@@ -61,5 +61,7 @@ Este projeto foi desenvolvido para fins educacionais, como parte da disciplina d
 * documentação com README
 
 ## 👨‍💻 Autor
+
 * Guilherme Leite Freitas
 * Saulo batista Barbosa
+
