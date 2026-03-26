@@ -16,42 +16,82 @@
             Dev<span class="text-red-600">Start</span>
         </a>
         <div class="flex items-center gap-8">
-            <a href="./index.html" class="text-neutral-400 text-sm p-2 hover:text-red-600">Home</a>
-            <a href="./login.html" class="text-red-600 text-sm p-2">Login</a>
+            <a href="./index.html" class="text-red-600 text-sm p-2">Home</a>
+            <a href="./login.html" class="text-neutral-400 text-sm p-2 hover:text-red-600">Login</a>
             <a href="./contato.html" class="text-neutral-400 text-sm p-2 hover:text-red-600">Contato</a>
         </div>
     </header>
-    <main class="flex items-center justify-center flex-1">
-        <div class="w-full max-w-sm">
-            <div class="rounded-lg border border-neutral-800 bg-neutral-900 p-8">
-                <h1 class="text-2xl font-bold text-center mb-8">
-                    Entrar na <span class="text-red-600">DevStart</span>
-                </h1>
-                <form class="space-y-5">
-                    <div class="space-y-2">
-                        <label for="email" class="text-sm font-medium">
-                            Email
-                        </label>
-                        <input id="email" type="email" placeholder="seu@email.com"
-                            class="w-full h-10 rounded-md border border-neutral-800 bg-[#121212] px-3 text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-red-600">
+    <main class="flex-1">
+        <div class="flex items-center justify-center flex-col gap-[2.2rem] p-[8rem] text-center">
+            <h1 class="text-6xl font-bold">
+                Aprenda <span class="bg-gradient-to-br 
+                from-[#e83030] to-[#f65555] bg-clip-text text-transparent">
+                    DevOps
+                </span> e
+                <br />
+                Tecnologia do Zero
+            </h1>
+            <p class="text-neutral-400 text-lg">
+                A plataforma completa para você dominar as tecnologias mais
+                <br />
+                demandadas do mercado, com cursos práticos e direto ao ponto.
+            </p>
+            <a href="./login.html" class="px-7 py-3 bg-red-600 rounded-md font-bold text-sm">
+                Começar Agora
+            </a>
+        </div>
+        <hr class="border-1 border-neutral-900 border-t-neutral-800" />
+        <div class="flex items-center justify-center flex-col gap-[2.2rem] p-[8rem]">
+            <h1 class="text-3xl">Por que escolher a <span class="text-red-600">DevStart</span>?</h1>
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 px-[10rem]">
+                <div
+                    class="rounded-lg border border-neutral-800 bg-neutral-900 p-6 transition-colors hover:border-red-600/40">
+                    <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-md bg-[#e61919]/10">
+                        <i class="fa-solid fa-code text-[#e61919] text-lg"></i>
                     </div>
-                    <div class="space-y-2">
-                        <label for="password" class="text-sm font-medium">
-                            Senha
-                        </label>
-                        <input id="password" type="password" placeholder="••••••••"
-                            class="w-full h-10 rounded-md border border-neutral-800 bg-[#121212] px-3 text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-red-600">
+                    <h3 class="text-lg font-semibold mb-2">
+                        Conteúdo Prático
+                    </h3>
+                    <p class="text-sm text-neutral-400 leading-relaxed">
+                        Aprenda com projetos reais e exercícios hands-on do início ao fim.
+                    </p>
+                </div>
+                <div
+                    class="rounded-lg border border-neutral-800 bg-neutral-900 p-6 transition-colors hover:border-red-600/40">
+                    <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-md bg-[#e61919]/10">
+                        <i class="fa-solid fa-server text-[#e61919] text-lg"></i>
                     </div>
-                    <button class="cursor-pointer w-full h-11 rounded-md bg-red-600 font-semibold text-sm transition hover:bg-red-700">
-                        Entrar
-                    </button>
-                </form>
-                <p class="mt-6 text-center text-sm text-neutral-400">
-                    Não tem conta?
-                    <span class="text-red-600 font-medium hover:underline">
-                        Cadastre-se
-                    </span>
-                </p>
+                    <h3 class="text-lg font-semibold mb-2">
+                        DevOps & Cloud
+                    </h3>
+                    <p class="text-sm text-neutral-400 leading-relaxed">
+                        Domine Docker, Kubernetes, CI/CD, AWS e muito mais.
+                    </p>
+                </div>
+                <div
+                    class="rounded-lg border border-neutral-800 bg-neutral-900 p-6 transition-colors hover:border-red-600/40">
+                    <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-md bg-[#e61919]/10">
+                        <i class="fa-solid fa-bolt text-[#e61919] text-lg"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">
+                        Do Zero ao Deploy
+                    </h3>
+                    <p class="text-sm text-neutral-400 leading-relaxed">
+                        Trilhas organizadas para você sair do zero e colocar projetos no ar.
+                    </p>
+                </div>
+                <div
+                    class="rounded-lg border border-neutral-800 bg-neutral-900 p-6 transition-colors hover:border-red-600/40">
+                    <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-md bg-[#e61919]/10">
+                        <i class="fa-solid fa-user-group text-[#e61919] text-lg"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">
+                        Comunidade Ativa
+                    </h3>
+                    <p class="text-sm text-neutral-400 leading-relaxed">
+                        Conecte-se com outros devs e tire dúvidas em tempo real.
+                    </p>
+                </div>
             </div>
         </div>
     </main>
